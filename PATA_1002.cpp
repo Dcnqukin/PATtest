@@ -1,6 +1,4 @@
-#PATA_1002 A+B for Polynomials
----
-```
+//PATA_1002 A+B for Polynomials
 #include <cstdio>
 #include <algorithm>
 #include <cmath> 
@@ -36,11 +34,12 @@ int main(){
 	fclose(stdin);
 	return 0;
 }
-```
-**输入文件如下：**
+
+/* **输入文件如下：**
 ---
 2 1 2.4 0 3.2
 2 2 1.5 1 0.5
 
 **输出结果如下：**
 3 2 1.5 1 2.9 0 3.2
+*/

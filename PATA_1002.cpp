@@ -8,7 +8,7 @@ using namespace std;
 const int maxn = 1010;
 double e[maxn] = {};
 int main(){
-	freopen("testIn_A1002.txt", "r", stdin);//用于读入测试文件
+	freopen("testIn_A1002.txt", "r", stdin);//用于读入文件
 	int k, n, num = 0;
 	double a;
 	scanf("%d", &k);
@@ -37,8 +37,10 @@ int main(){
 	return 0;
 }
 ```
-**测试文件如下：**
+**输入文件如下：**
 ---
 2 1 2.4 0 3.2
 2 2 1.5 1 0.5
 
+**输出结果如下：**
+3 2 1.5 1 2.9 0 3.2
